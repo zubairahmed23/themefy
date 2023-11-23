@@ -8,5 +8,5 @@ app.listen(port, () => {
 });
 
 app.use('/', (req, res) => {
-    res.json({message:"Hello from express app"});
+    res.send('Welcome to themefy\nOwned by: Sai Priyansh Panda\nLicensed by: ISC, MIT');
 });
