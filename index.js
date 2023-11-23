@@ -8,11 +8,5 @@ app.listen(port, () => {
 });
 
 app.use('/', (req, res) => {
-    res.json({
-        name:"themefy",
-        version:"1.0.0",
-        owner:"Sai Priyansh Panda",
-        author:"Sheikh Zubair Ahmed",
-        domain:"themefy.vercel.app"
-    });
+    res.send("Hello how are you??");
 });
